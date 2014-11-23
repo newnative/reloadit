@@ -1,0 +1,23 @@
+{
+  "name": "reloadit",
+  "version": "1.0.0",
+  "description": "Browser reload script, like LiveReload. Listens to custom calls",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "New Native",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.2",
+    "konfig": "^0.2.0",
+    "socket.io": "^1.2.1"
+  },
+  "bin": {
+    "reloadit": "bin/reloadit"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/newnative/reloadit.git"
+  }
+}
