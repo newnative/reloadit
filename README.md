@@ -33,3 +33,15 @@ end
 
 # License
 Use of this software is governed by a MIT-style license that can be found in the LICENSE file.
+
+# Author
+
+ReloadIt is developed by Richard Tuin of [New Native](http://www.newnative.nl).
+
+# Changelog
+
+## 1.0.1 - 23-11-2014
+* Bugfix: When installing ReloadIt system-wide via NPM the config loader gave an error.
+
+## 1.0.0 - 23-11-2014
+* First public release of the software

@@ -1,6 +1,6 @@
 // Use of this source code is governed by a MIT-style license that can be found in the LICENSE file.
 (function() {
-    var config = require('konfig')(),
+    var config = require('konfig')({ path: __dirname + '/config' }),
         app = require('express')(),
         http = require('http').Server(app),
         io = require('socket.io')(http);

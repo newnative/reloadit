@@ -1,6 +1,6 @@
 {
   "name": "reloadit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser reload script, like LiveReload. Listens to custom calls",
   "main": "server.js",
   "scripts": {
