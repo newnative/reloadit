@@ -1,6 +1,6 @@
 # ReloadIt - Automatically reload web pages while developing
 
-A little like LiveReload, but simpler.
+A little like [LiveReload](http://livereload.com/), but simpler.
 
 # Installing
 ```bash
@@ -30,9 +30,6 @@ on_stylesheet_saved do |file|
     Net::HTTP.get_response(uri)
 end
 ```
-
-# Contributing
-Please
 
 # License
 Use of this software is governed by a MIT-style license that can be found in the LICENSE file.
